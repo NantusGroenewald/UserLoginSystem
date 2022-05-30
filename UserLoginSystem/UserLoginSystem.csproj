@@ -46,12 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataAccessLayer\FileHandler.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="DataLayer\FileHandler.cs" />
+    <Compile Include="DataLayer\User.cs" />
+    <Compile Include="LogicLayer\CheckLogin.cs" />
+    <Compile Include="LogicLayer\Logic.cs" />
+    <Compile Include="LogicLayer\RegisterUser.cs" />
+    <Compile Include="PresentationLayer\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="PresentationLayer\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
