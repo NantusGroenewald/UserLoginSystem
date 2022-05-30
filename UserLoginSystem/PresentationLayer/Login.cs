@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace UserLoginSystem
+namespace UserLoginSystem.PresentationLayer
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }
